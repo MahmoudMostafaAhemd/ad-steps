@@ -68,4 +68,8 @@ post_install do |installer|
       config.build_settings['ENABLE_BITCODE'] = 'NO'
     end
   end
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+
 end
